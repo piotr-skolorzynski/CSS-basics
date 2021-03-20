@@ -1,21 +1,9 @@
-/* Specifity */
-
-/* ID 100 points
-   classes 10 points
-   element 1 point */
+/* Important declaration - do not use it too often */
+p {
+    color: red !important;
+    /*force browser to use always this rule, don't care about specifity rules*/
+}
 
 #main-content p {
-    color: red;
-}
-
-.test {
     color: green;
-} /* won't work cause only 10 points*/
-
-p {
-    color: black;
 }
-
-strong {
-    color: green;
-} /* works cause it's an explicity rule, there is no overwriting */
