@@ -1,2 +1,2 @@
 # CSS-basics
-CSS - basic exercises 
+CSS - basic exercises - based on The Net Ninja Tutorials
