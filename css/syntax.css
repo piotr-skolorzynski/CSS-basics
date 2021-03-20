@@ -1,11 +1,14 @@
-/* targeting multiple elements */
+/* descendant selectors */
 
-p,
-span,
-a,
-li {
+#main-content p {
     color: red;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+#main-content #sub-content p {
+    color: green;
+}
+
+/* also will work
+#sub-content p {
+    color: purple;
+} */
