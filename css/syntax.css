@@ -1,20 +1,21 @@
-/* INHERITANCE */
+/* Specifity */
 
-body {
+/* ID 100 points
+   classes 10 points
+   element 1 point */
+
+#main-content p {
     color: red;
 }
 
-div {
-    color: blue;
-}
+.test {
+    color: green;
+} /* won't work cause only 10 points*/
 
 p {
+    color: black;
+}
+
+strong {
     color: green;
-}
-
-/* when inheritance doesn't work? when browsers have own default styles f.e. a tags. To change that it is necessary to overwright it by own style */
-
-a {
-    color: yellow;
-    text-decoration: none;
-}
+} /* works cause it's an explicity rule, there is no overwriting */
