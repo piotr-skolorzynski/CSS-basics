@@ -1,8 +1,5 @@
-/* child selectors
-> direct children
-*/
+/* Adjacent selectors */
 
-#main-content > p {
-    color: red;
+#all-articles h2 + p {
+    color: green;
 }
-
