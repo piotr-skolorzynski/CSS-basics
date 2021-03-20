@@ -1,14 +1,8 @@
-/* descendant selectors */
+/* child selectors
+> direct children
+*/
 
-#main-content p {
+#main-content > p {
     color: red;
 }
 
-#main-content #sub-content p {
-    color: green;
-}
-
-/* also will work
-#sub-content p {
-    color: purple;
-} */
