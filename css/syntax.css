@@ -1,9 +1,11 @@
-/* Important declaration - do not use it too often */
-p {
-    color: red !important;
-    /*force browser to use always this rule, don't care about specifity rules*/
-}
+/* targeting multiple elements */
 
-#main-content p {
-    color: green;
+p,
+span,
+a,
+li {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
