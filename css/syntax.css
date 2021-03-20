@@ -1,24 +1,19 @@
-/* TARGETING ELEMENTS /TAGS */
+/* TARGETING ID's /classes */
 
-p {
-    font-size: 12px;
+h2 {
+    font-size: 24px;
+}
+
+#content-header {
+    font-size: 18px;
     color: red;
 }
 
-a {
-    text-decoration: underline;
+span {
+    display: block;
     color: blue;
 }
 
-span {
-    text-transform: uppercase;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-div {
-    width: 100%;
-    background-color: grey;
+.deck {
+    color: red;
 }
