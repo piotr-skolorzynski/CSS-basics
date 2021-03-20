@@ -1,13 +1,20 @@
-/* CSS conflicts & the Cascade */
+/* INHERITANCE */
 
-span {
-    color: blue;
-}
-
-span {
+body {
     color: red;
 }
 
-/* for identical rules the lowest rule overwrights those higher */
+div {
+    color: blue;
+}
 
-/* inline styles sre the most important, next are styles nested in head section and last exeternal stylesheets */
+p {
+    color: green;
+}
+
+/* when inheritance doesn't work? when browsers have own default styles f.e. a tags. To change that it is necessary to overwright it by own style */
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
