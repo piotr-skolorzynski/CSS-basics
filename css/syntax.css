@@ -1,16 +1,24 @@
-/* Style all p tags */
+/* TARGETING ELEMENTS /TAGS */
 
 p {
-    font-size: 18px;
+    font-size: 12px;
     color: red;
 }
 
-#header p {
-    font-size: 24px;
+a {
+    text-decoration: underline;
+    color: blue;
 }
 
-/* Style all header tags */
+span {
+    text-transform: uppercase;
+}
 
 h1 {
-    font-size: 44px;
+    font-size: 32px;
+}
+
+div {
+    width: 100%;
+    background-color: grey;
 }
