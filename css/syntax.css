@@ -1,17 +1,19 @@
-/* text decoration */
+/* font-weight */
 
-/* article {
-    text-decoration: overline;
+h1 {
+    font-weight: normal;
 }
 
-a{
-    text-decoration: inherit;
+/* p {
+    font-weight: bolder;
 } */
 
-/* a{
-    text-decoration: line-through;
+/* p {
+    font-weight: lighter;
+    font-family: "Yu Gothic";
 } */
 
 p {
-    text-decoration: underline;
+    font-weight: 500;
+    font-family: "Yu Gothic";
 }
