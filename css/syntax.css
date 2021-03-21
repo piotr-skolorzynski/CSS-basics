@@ -1,19 +1,30 @@
-/* box model */
+/* margin & padding */
 
 body {
     background-color: #eee;
 }
 
 #main-content {
+    margin: 0 auto;
     padding: 20px;
     width: 1200px;
+    height: 100%;
     background-color: #fff;
 }
 
 .box {
-    margin: 30px;
-    padding: 30px;
+    margin: 30px auto;
+    /* margin: 30px 20px 15px 5px; clockwise */
+    /* margin: 30px 15px; top&bottom, left&right */
+    /* margin: 30px 15px 20px; top / left&right / bottom */
+    /* padding rules are the same */
+    padding: 30px 20%;
+    width: 50%;
     border: 1px solid #000;
-    /* width: 400px;
-    height: 200px; */
+    /* long-hand method
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;    
+    */
 }
