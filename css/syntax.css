@@ -5,6 +5,10 @@ body {
 }
 
 #main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     padding: 20px;
     width: 1200px;
@@ -13,18 +17,44 @@ body {
 }
 
 .box {
-    margin: 30px auto;
-    /* margin: 30px 20px 15px 5px; clockwise */
-    /* margin: 30px 15px; top&bottom, left&right */
-    /* margin: 30px 15px 20px; top / left&right / bottom */
-    /* padding rules are the same */
-    padding: 30px 20%;
+    margin: 20px;
+    padding: 20px;
     width: 50%;
-    border: 1px solid #000;
     /* long-hand method
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-    margin-left: 10px;    
-    */
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue; */
+}
+
+.dashed {
+    border: 1px dashed black;
+    /*quicker way*/
+}
+
+.dotted {
+    border: 1px dotted black;
+}
+
+.double {
+    border: 4px double blue;
+}
+
+.groove {
+    border: 20px groove blue
+}
+
+.inset {
+    border: 20px inset blue
+}
+
+.outset {
+    border: 20px outset blue
+}
+
+.ridge {
+    border: 20px ridge blue
+}
+
+.solid {
+    border: 1px solid black
 }
