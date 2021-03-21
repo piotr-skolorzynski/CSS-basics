@@ -1,7 +1,28 @@
-/* universal selector - overwrigth also default browser styling*/
+/* font-size */
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-} /*css reset*/
+/* using pixels */
+/* h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+} */
+
+
+/* using relative units ems and percents */
+article {
+    font-size: 16px;
+}
+
+article h2 {
+    font-size: 3em;
+}
+
+article p{
+    font-size: 62.5%;
+}
