@@ -1,19 +1,13 @@
-/* font-weight */
+/* text transform */
 
-h1 {
-    font-weight: normal;
+#header p {
+    text-transform: capitalize;
 }
 
-/* p {
-    font-weight: bolder;
-} */
+body>p:first-child {
+    text-transform: uppercase;
+}
 
-/* p {
-    font-weight: lighter;
-    font-family: "Yu Gothic";
-} */
-
-p {
-    font-weight: 500;
-    font-family: "Yu Gothic";
+body>p {
+    text-transform: lowercase;
 }
