@@ -1,13 +1,13 @@
-/* text transform */
+/* text colour / color ;) */
 
-#header p {
-    text-transform: capitalize;
+#header h1 {
+    color: chocolate;
 }
 
-body>p:first-child {
-    text-transform: uppercase;
+#header h2 {
+    color: #567398;
 }
 
-body>p {
-    text-transform: lowercase;
+#header {
+    background-color: antiquewhite;
 }
