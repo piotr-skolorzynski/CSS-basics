@@ -1,5 +1,17 @@
-/* font family */
+/* text decoration */
 
-article h2, article p {
-    font-family: Arial, Helvetica, sans-serif;
+/* article {
+    text-decoration: overline;
+}
+
+a{
+    text-decoration: inherit;
+} */
+
+/* a{
+    text-decoration: line-through;
+} */
+
+p {
+    text-decoration: underline;
 }
