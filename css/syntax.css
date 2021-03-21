@@ -1,14 +1,10 @@
-/* margin & padding */
+/* block-level elements*/
 
 body {
     background-color: #eee;
 }
 
 #main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     padding: 20px;
     width: 1200px;
@@ -16,45 +12,14 @@ body {
     background-color: #fff;
 }
 
-.box {
-    margin: 20px;
-    padding: 20px;
-    width: 50%;
-    /* long-hand method
-    border-width: 1px;
-    border-style: solid;
-    border-color: blue; */
+.block {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
 }
 
-.dashed {
-    border: 1px dashed black;
-    /*quicker way*/
-}
-
-.dotted {
-    border: 1px dotted black;
-}
-
-.double {
-    border: 4px double blue;
-}
-
-.groove {
-    border: 20px groove blue
-}
-
-.inset {
-    border: 20px inset blue
-}
-
-.outset {
-    border: 20px outset blue
-}
-
-.ridge {
-    border: 20px ridge blue
-}
-
-.solid {
-    border: 1px solid black
+.inline {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
 }
