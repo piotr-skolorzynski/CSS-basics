@@ -1,13 +1,20 @@
-/* styling links */
+/* letter spacing / word spacing and line height */
 
-a {
-    color: crimson;
-    text-decoration: none;
-    font-weight: bold;
+body {
+    background-color: #eee;
 }
 
-a:hover {
-    color: darkmagenta;
-    text-decoration: underline;
-    background-color: aquamarine;
+#main-content {
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1.5;
 }
