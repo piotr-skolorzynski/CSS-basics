@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #eee;
 }
 
@@ -70,4 +70,50 @@ body {
     word-spacing: 2px;
     text-transform: uppercase;
     color: #462d25;
+}
+
+#shop {
+    position: relative;
+}
+
+#shop .product-image {
+    width: 100%;
+}
+
+#shop .shop-content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#shop h2.product-name {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#shop span.rating {
+    font-size: 5.8rem;
+    text-align: center;
+}
+
+#shop a.add-to-bag {
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8f746c;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #8f746c;
+    transition: color .5s, background-color .5s;
+}
+
+#shop a.add-to-bag:hover {
+    color: #fff;
+    background-color: #8f746c;
 }
