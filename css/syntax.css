@@ -1,4 +1,4 @@
-/* block-level elements*/
+/* width & height*/
 
 body {
     background-color: #eee;
@@ -7,19 +7,28 @@ body {
 #main-content {
     margin: 0 auto;
     padding: 20px;
-    width: 1200px;
+    width: 80%;
     height: 100%;
     background-color: #fff;
 }
 
-.block {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #000;
+#main-content div {
+    background-color: #ccc;
+    margin: 0 0 20px 0;
 }
 
-.inline {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #000;
+.static-width {
+    width: 300px;
+    height: 100px;
+}
+
+.percentage-width {
+    width: 70%;
+    height: 50px;
+}
+
+.inline-block {
+    width: 40%;
+    display: inline-block;
+    
 }
