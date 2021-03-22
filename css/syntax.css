@@ -1,4 +1,4 @@
-/* width & height*/
+/* border-radius*/
 
 body {
     background-color: #eee;
@@ -20,15 +20,20 @@ body {
 .static-width {
     width: 300px;
     height: 100px;
+    border-radius: 10px;
+    /*works clockwise*/
 }
 
 .percentage-width {
     width: 70%;
     height: 50px;
+    border-radius: 5px 10px 20px 40px; /*clockwise*/
 }
 
 .inline-block {
-    width: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /*making circle*/
     display: inline-block;
-    
+
 }
