@@ -1,4 +1,4 @@
-/* opacity */
+/* gradient */
 
 body {
     background: #eee;
@@ -14,37 +14,22 @@ body {
     min-height: 700px;
 }
 
-#circle {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    background: rgb(200, 200, 100);
-    border-radius: 50%;
-    top: 50px;
-    left: 50px;
+.button {
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #7aa;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
     text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: linear-gradient(to top, #aadddd 0%, #77aaaa 100%);
 }
 
-#circle-2 {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    background: rgb(200, 100, 200);
-    border-radius: 50%;
-    top: 250px;
-    left: 150px;
-    opacity: .3;
-    text-align: center;
-}
-
-#circle-3 {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    background: rgba(100, 200, 200, .1);
-    border-radius: 50%;
-    top: 50px;
-    left: 250px;
-    /* opacity: .7; can be replaced by alpha channel in rgb */
-    text-align: center;
+.button:hover {
+    background: linear-gradient(to left, #aadddd 0%, #77aaaa 100%)
 }
