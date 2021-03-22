@@ -117,3 +117,7 @@ body {
     color: #fff;
     background-color: #8f746c;
 }
+
+footer img {
+    width: 100%;
+}
