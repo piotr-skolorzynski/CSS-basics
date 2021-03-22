@@ -11,13 +11,16 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto',sans-serif;
     background-color: #eee;
 }
 
 #wrapper {
-    width: 1000px;
-    margin: 0 auto;
+    width: 80%;
     background-color: #fff;
 }
 
@@ -47,4 +50,24 @@ body {
 #main-navigation a.current {
     background-color: #8f746c;
     border-radius: 4px;
+}
+
+#lead-banner {
+    position: relative;
+}
+
+#lead-banner img {
+    width: 100%;
+}
+
+#lead-banner p {
+    position: absolute;
+    top: 13%;
+    right: 13%;
+    width: 40%;
+    font-size: 4.6rem;
+    line-height: 1.2;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    color: #462d25;
 }
